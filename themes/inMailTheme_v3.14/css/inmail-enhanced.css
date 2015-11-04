@@ -1,0 +1,193 @@
+#checker-notmobile { /* detects mobile or not for javascript*/
+	display:block;
+}
+a {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+.btn-ternary:hover {
+	background:-moz-linear-gradient(top, #b6b6b6 0, #cbcbcb 100%);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #b6b6b6), color-stop(100%, #cbcbcb));
+	background:linear-gradient(top, #b6b6b6 0, #cbcbcb 100%);
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b6b6b6', endColorstr='#cbcbcb', GradientType=0);
+}
+a.btn-action:active {
+	background:#F5DD61;
+	background:-moz-linear-gradient(top, #F6C202 0, #F5DD61 100%);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #F6C202), color-stop(100%, #F5DD61));
+	background:linear-gradient(top, #F6C202 0, #F5DD61 100%);
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#F6C202', endColorstr='#F5DD61', GradientType=0);
+}
+a.btn-action:hover {
+	background:#F6C408;
+	background:-moz-linear-gradient(top, #FAEEAE 0, #FAEEAE 1px, #F5DB59 1px, #F6C408 100%);
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0, #FAEEAE), color-stop(5%, #FAEEAE), color-stop(5%, #F5DB59), color-stop(100%, #F6C408));
+	background:linear-gradient(top, #FAEEAE 0, #FAEEAE 1px, #F5DB59 1px, #F6C408 100%);
+ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#F5DB59', endColorstr='#F6C408', GradientType=0);
+	text-decoration:none!important;
+}
+#header {
+	width:100%;
+	padding:0;
+}
+#subheader {
+	width:980px;
+	margin:0 auto;
+}
+.nav {
+	padding:0 3px 0 0;
+	/*z-index:10502;*/
+}
+.nav li {
+	margin-left:5px;
+}
+.nav li + li {
+	margin:0 5px;
+}
+.nav a {
+	line-height:37px;
+	padding:0 3px;
+}
+.nav ul ul {
+	display:none;
+}
+.nav ul li.share_list:hover ul {
+	display:block;
+}
+.nav ul a[href="#"] {
+	display:block;
+}
+.nav ul li.share_list {
+	padding-bottom:5px;
+}
+.nav ul li.share_list:hover { /*hover */
+	background-color:white;
+	border-radius:3px;
+	border-color:black;
+	box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.15);
+	-webkit-box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.15);
+}
+.nav ul li.share_list a {
+	padding:0 8px;
+	background-image:none;
+}
+.nav ul li.share_list:hover a { /*hover*/
+	color:black;
+	text-indent:0;
+	height:auto;
+	width:auto;
+	display:inline-block;
+}
+.nav ul li.share_list li a {
+	line-height:20px;
+}
+.nav ul li.share_list li {
+	margin:0 5px;
+	clear:right;
+}
+#body {
+	width:980px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#content {
+	margin-top:0;
+	background-repeat:no-repeat;
+	background-position:left top;
+}
+#body.left #content {
+	margin-left:350px;
+}
+#body.right #content {
+	margin-right:350px;
+}
+.widget {
+	display:block;
+}
+#content .widget {
+	padding-top:10px;
+	background:#e1e1e1 url('../img/bg_grain_200x200.png') left top repeat;
+	display:block;
+}
+#content .recommendwidget .panel div, #ads .recommendwidget div, #content .companyfollowwidget .panel div, #ads .companyfollowwidget div {
+	line-height:16px;
+	text-align: center;
+	margin-left: 100px;
+}
+.recommendwidget .IN-widget, .companyfollowwidget .IN-widget {
+	float:left;
+}
+.recommendwidget .IN-widget {
+	padding-top: 7px;
+}
+.recommendwidget a, .companyfollowwidget a {
+	margin: 0.5em 0;
+	display: inline-block;
+}
+#content .recommendwidget .panel div, #content .companyfollowwidget .panel div {
+	line-height:25px;
+	width:75%;
+}
+#content .companyinsiderwidget .panel {
+	padding:0;
+	min-height:285px;
+}
+#content .companywidget .panel {
+	min-height:185px;
+}
+#extra {
+	position:absolute;
+	width:340px;
+}
+#body.left #extra {
+	left:0;
+	top:0;
+}
+#body.right #extra {
+	right:0;
+	top:0;
+}
+#ctas {
+	z-index: 5002;
+}
+#ads {
+	display:block;
+}
+#ads .ad + .ad {
+	margin-top:20px;
+	padding-top:20px;
+	border-top: 1px solid #CCC;
+	display:block;
+}
+#ctas + #ads {
+	margin-top:10px;
+	z-index:10;
+}
+#body.left .footer {
+	margin-left:380px;
+}
+#body.right .footer {
+	margin-right:380px;
+}
+.article.panel {
+	padding-bottom:60px!important;
+}
+.td_button {
+	float: left;
+	display: block;
+	padding-right: 1em;
+	z-index:12;
+}
+.td_checkbox label {
+	margin-top:0;
+	display:inline;
+}
+.plus #ads .raw_creative {
+	display:block;
+}
+.plus #ads .noscript {
+	display:none;
+}

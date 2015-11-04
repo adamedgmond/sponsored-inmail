@@ -1,0 +1,17 @@
+body {
+	font-family:Arial, sans-serif;
+}
+a.btn-primary, .btn-ternary, a.btn-quaternary, a.btn-action {
+	display:block;
+	display:inline-block;
+}
+body.ie7 {
+	margin-top:47px;
+}
+.ie7 .nav {
+	width:150px;
+	display:block;
+}
+.ie6 .widget, .ie7 .companywidget, .ie7 #ads .widget {
+	display:none!important;
+}

@@ -1,0 +1,30 @@
+#shortlink+a {
+	display:none!important;
+}
+#minor-publishing-actions {
+	display:none!important;
+}
+#menu-pages, #menu-links, #menu-comments {
+	display:none!important;
+}
+th.column-comments, td.column-comments {
+	display:none!important;
+}
+label[for=comments-hide] {
+	display:none!important;
+}
+#wpwrap {
+	background-color:#f9f9ff!important;
+}
+#wp-content-editor-container {
+	background-color:white!important;
+}
+.mce_underline {
+	display:none!important;
+}
+.mce_justifyfull {
+	display:none!important;
+}
+.mce_forecolor {
+	display:none!important;
+}

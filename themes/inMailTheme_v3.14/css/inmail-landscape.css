@@ -1,0 +1,37 @@
+#content {
+	margin-top:0;
+}
+#body.left #content {
+	margin-left:350px;
+}
+#body.right #content {
+	margin-right:350px;
+}
+#extra {
+	position:absolute;
+	width:340px;
+}
+#body.left #extra {
+	left:0;
+	top:0;
+}
+#body.right #extra {
+	right:0;
+	top:0;
+}
+#ctas {
+	z-index: 5002;
+}
+#ads {
+	display:block;
+	z-index:10;
+}
+#ctas + #ads {
+	margin-top:10px;
+}
+#body.left .footer {
+	margin-left:380px;
+}
+#body.right .footer {
+	margin-right:380px;
+}

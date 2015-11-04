@@ -1,0 +1,19 @@
+.login h1 a {
+	width:600px!important;
+	height:400px!important;
+	background-position:top left;
+	background-repeat:no-repeat;
+	background-size:auto!important;
+	padding-bottom:0!important;
+	margin-top:1em !important;
+}
+#login {
+	padding-top:0!important;
+	width:600px!important;
+}
+#backtoblog {
+	display:none!important;
+}
+body.login {
+	background-color:white!important;
+}

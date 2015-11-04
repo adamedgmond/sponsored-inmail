@@ -1,0 +1,22 @@
+
+INMAIL VERSION v3.14
+_________________________________
+
+*** MAJOR CHANGES ***
+
+* Titles are now required for Sponsored InMails. Not including Titles in new posts will lead to an error message blocking changes until a Title is entered. Attempting to change an old post without a Title will require that a Title be entered before changes are made. Contact aedgmond@linkedin.com for assistance around this behavior for legacy messages without titles; new posts without titles will not be allowed under any circumstance.
+* New salutation styles are now supported primarily for East Asian readers. Salutation and name can be reversed in order and can include and exclude the in-between space. For non-East Asian user lists, continue using the first four options.
+* The "Global Clicktracker" field has been retired for new posts. Posts that have used Global Clicktracker in the past will continue to work as expected.
+
+*** MINOR CHANGES ***
+
+* CTA Captions are now required for Sponsored InMails. Manually blanking the caption or substituting a space will default to "Take Action on this Message". Changing the caption to an actual phrase works per before.
+* Useless "Unknown feed" panels removed from the dashboard
+* Additional admin bar greetings and login images added to make your day marginally better
+
+*** BUG FIXES ***
+
+* To help resolve a recurring ?u= encrypted user ID append bug used with various types of Doubleclick clicktrackers, appending the encrypted user ID now only occurs to CTAs and links within the body of the InMail.  Also, URLs with "ad.doubleclick.net/jump" and "utm_" will be ignored for rewriting.  This should significantly reduce the occurence of broken links after the drop.  This fix will continue to be optimized in coming weeks with more tests
+* Descriptions in Facebook Shares and LinkedIn Shares should now work more reliably
+* Talent Directs that use Secondary Text now have a CTA with proper borders top and bottom
+* Widgets in Firefox should be marginally faster
